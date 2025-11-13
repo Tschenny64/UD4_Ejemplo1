@@ -1,0 +1,203 @@
+﻿<mah:MetroWindow x:Class="UD4_Ejemplo1.Frontend.Dialogos.Menu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UD4_Ejemplo1.Frontend.Dialogos"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="Menu" Height="450" Width="800">
+
+    <!-- Botones de la ventana -->
+    <mah:MetroWindow.RightWindowCommands>
+        <mah:WindowCommands>
+            <Button ToolTip="Información de la cuenta">
+                <materialDesign:PackIcon Kind="AccountPlus" />
+            </Button>
+            <Button x:Name="buttonCerrarApp" Click="buttonCerrarApp_Click" ToolTip="Cerrar la aplicación">
+                <materialDesign:PackIcon Kind="LogoutVariant" />
+            </Button>
+        </mah:WindowCommands>
+    </mah:MetroWindow.RightWindowCommands>
+
+    <!-- Layout principal -->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Menú -->
+            <RowDefinition Height="Auto"/>
+            <!-- ToolBar -->
+            <RowDefinition Height="*"/>
+            <!-- Contenido principal -->
+        </Grid.RowDefinitions>
+
+        <!-- Menú superior -->
+        <Menu x:Name="menuPrueba" Grid.Row="0" IsMainMenu="True">
+            <MenuItem Header="Prestamos">
+                <MenuItem Header="Salidas" ToolTip="Registrar salida de un préstamo">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="ArrowRightThinCircleOutline" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Entradas" ToolTip="Registrar entrada de un préstamo">
+                    <MenuItem.Icon>
+                        <Image Source="/IconosTema3/icon_down.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator />
+                <MenuItem Header="Listado Pendientes" ToolTip="Ver préstamos pendientes">
+                    <MenuItem.Icon>
+                        <Image Source="/IconosTema3/icon_down.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+
+            <MenuItem Header="Articulos">
+                <MenuItem Header="Articulo Nuevo" ToolTip="Añadir un nuevo artículo">
+                    <MenuItem.Icon>
+                        <Image Source="/IconosTema3/icon_down.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Editar" ToolTip="Editar un artículo existente">
+                    <MenuItem.Icon>
+                        <Image Source="/IconosTema3/icon_down.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Lista" ToolTip="Ver lista de artículos">
+                    <MenuItem.Icon>
+                        <Image Source="/IconosTema3/icon_down.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator />
+                <MenuItem Header="Modelo Articulo Nuevo" ToolTip="Añadir un nuevo modelo de artículo"
+                          Click="fbtnAddModelo_Click">
+                    <MenuItem.Icon>
+                        <Image Source="/IconosTema3/icon_down.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Modelo Articulo Editar" ToolTip="Editar un modelo de artículo">
+                    <MenuItem.Icon>
+                        <Image Source="/IconosTema3/icon_down.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Lista Modelo Articulo" ToolTip="Ver lista de modelos de artículos">
+                    <MenuItem.Icon>
+                        <Image Source="/IconosTema3/icon_down.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+
+            <MenuItem Header="Administración">
+                <MenuItem Header="Gestión Usuarios" ToolTip="Administrar usuarios">
+                    <MenuItem Header="Nuevo" ToolTip="Añadir nuevo usuario">
+                        <MenuItem.Icon>
+                            <Image Source="/IconosTema3/addinventario.png" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Editar" ToolTip="Editar usuario existente">
+                        <MenuItem.Icon>
+                            <Image Source="/IconosTema3/addinventario.png" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Lista" ToolTip="Ver lista de usuarios">
+                        <MenuItem.Icon>
+                            <Image Source="/IconosTema3/addinventario.png" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Header="Contraseñas" ToolTip="Cambiar contraseñas de usuarios">
+                    <MenuItem.Icon>
+                        <Image Source="/IconosTema3/addinventario.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Mantenimiento" ToolTip="Opciones de mantenimiento">
+                    <MenuItem.Icon>
+                        <Image Source="/IconosTema3/addinventario.png" />
+                    </MenuItem.Icon>
+                    <MenuItem Header="Eliminar Articulo" ToolTip="Eliminar un artículo">
+                        <MenuItem.Icon>
+                            <Image Source="/IconosTema3/addarticulo.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Eliminar Modelo Articulo" ToolTip="Eliminar un modelo de artículo">
+                        <MenuItem.Icon>
+                            <Image Source="/IconosTema3/addarticulo.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Eliminar Usuario" ToolTip="Eliminar un usuario">
+                        <MenuItem.Icon>
+                            <Image Source="/IconosTema3/addarticulo.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+                <Separator/>
+                <MenuItem Header="Stock" ToolTip="Gestionar stock de artículos">
+                    <MenuItem.Icon>
+                        <Image Source="/IconosTema3/addarticulomvvm.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Listado Usuarios" ToolTip="Ver listado de usuarios">
+                    <MenuItem.Icon>
+                        <Image Source="/IconosTema3/addarticulomvvm.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+
+            <MenuItem Header="Inventario">
+                <MenuItem Header="Listado de espacios" ToolTip="Ver espacios de inventario">
+                    <MenuItem.Icon>
+                        <Image Source="/IconosTema3/addarticulomvvm.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Chequear Inventario" ToolTip="Revisar inventario actual">
+                    <MenuItem.Icon>
+                        <Image Source="/IconosTema3/addarticulomvvm.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Inventario Nuevo" ToolTip="Añadir nuevo inventario">
+                    <MenuItem.Icon>
+                        <Image Source="/IconosTema3/addarticulomvvm.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+
+            <MenuItem Header="Información">
+                <MenuItem Header="Informes" ToolTip="Generar informes">
+                    <MenuItem.Icon>
+                        <Image Source="/IconosTema3/addarticulomvvm.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Gráficos" ToolTip="Ver gráficos de información">
+                    <MenuItem.Icon>
+                        <Image Source="/IconosTema3/addarticulomvvm.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+
+        <!-- ToolBar debajo del menú -->
+        <ToolBar Grid.Row="1" Margin="0,5,0,5">
+            <Button ToolTip="SALIR?">
+                <materialDesign:PackIcon Kind="OutdoorLamp" Height="24"/>
+            </Button>
+            <Button ToolTip="ENTRAR?">
+                <materialDesign:PackIcon Kind="ContentCopy" Height="24"/>
+            </Button>
+            <Button ToolTip="ABRIR ARCHIVOS?">
+                <materialDesign:PackIcon Kind="Watermark" />
+            </Button>
+            <Button ToolTip="REDIMENSIONAR?">
+                <materialDesign:PackIcon Kind="Reddit" />
+            </Button>
+            <Separator Margin="10,0,10,0"/>
+            <TextBlock Text="Busca un artículo" FontSize="12" VerticalAlignment="Center" Margin="10,0,0,0"/>
+            <TextBox Width="150" Margin="10,0,0,0"/>
+        </ToolBar>
+
+        <!-- Contenedor principal -->
+        <Grid Grid.Row="2" x:Name="contenedorPrincipal">
+            <!-- Aquí cargas tus UserControls o contenido dinámico -->
+        </Grid>
+    </Grid>
+</mah:MetroWindow>
