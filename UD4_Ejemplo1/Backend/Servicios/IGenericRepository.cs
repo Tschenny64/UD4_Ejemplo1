@@ -74,7 +74,7 @@ namespace UD4_Ejemplo1.Backend.Servicios
         /// </summary>
         /// <param name="entity">Entidad a añadir.</param>
         /// <param name="cancellationToken">Token de cancelación.</param>
-        Task AddAsync(T entity, CancellationToken cancellationToken = default);
+        Task AddAsync(T entity);
 
         /// <summary>
         /// Añade múltiples entidades y persiste los cambios en la base de datos.

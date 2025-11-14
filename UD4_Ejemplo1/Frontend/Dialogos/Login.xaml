@@ -7,6 +7,9 @@
         xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
         xmlns:local="clr-namespace:UD4_Ejemplo1.Frontend.Dialogos"
         mc:Ignorable="d"
+        x:Name="ventanaLogin"
+        Loaded="ventanaLogin_Loaded"
+        WindowStartupLocation="CenterScreen"
         Title="Login" Height="450" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>

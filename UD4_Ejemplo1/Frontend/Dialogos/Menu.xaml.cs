@@ -27,17 +27,15 @@ namespace UD4_Ejemplo1.Frontend.Dialogos
         private DiinventarioexamenContext _contexto;
         private DialogoModelo mvModeloArticulo;
 
-            public Menu(DiinventarioexamenContext contexto)
+            public Menu(DiinventarioexamenContext context)
             {
                 InitializeComponent();
-                _contexto = contexto;
             }
 
         private void fbtnAddModelo_Click(object sender, RoutedEventArgs e)
         {
-            contenedorPrincipal.Children.Clear();
-            var dialogoModelo = new DialogoModelo(_contexto);
-            contenedorPrincipal.Children.Add(dialogoModelo);
+            DialogoModelo dialogoModelo = new DialogoModelo();
+            dialogoModelo.ShowDialog();
         }
 
         private void buttonCerrarApp_Click(object sender, RoutedEventArgs e)

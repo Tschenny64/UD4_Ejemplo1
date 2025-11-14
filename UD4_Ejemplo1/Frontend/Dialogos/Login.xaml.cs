@@ -1,4 +1,5 @@
 ﻿using MahApps.Metro.Controls;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,12 +26,10 @@ namespace UD4_Ejemplo1.Frontend.Dialogos
     {
         private DiinventarioexamenContext _contexto;
         private UsuarioRepository _usuarioRepository;
+        private ILogger<GenericRepository<Usuario>> _logger;
         public Login()
         {
             InitializeComponent();
-            //instanciamos el contexto y el repositorio de usuarios
-            //el contexto nos permite conectar con la base de datos
-            _contexto = new DiinventarioexamenContext();
         }
         private async void btn_login_Click(object sender, RoutedEventArgs e)
         {
@@ -58,6 +57,20 @@ namespace UD4_Ejemplo1.Frontend.Dialogos
             }
 
 
+        }
+
+        private void ventanaLogin_Loaded(object sender, RoutedEventArgs e)
+        {
+            //instanciamos el contexto y el repositorio de usuarios
+            //el contexto nos permite conectar con la base de datos
+            _contexto = new DiinventarioexamenContext();
+            // El logger nos permite registrar eventos y errores
+            // crear un logger para el repositorio genérico de usuarios
+            _logger = LoggerFactory.Create(builder =>
+            {
+                builder.AddConsole();
+            }).CreateLogger<GenericRepository<Usuario>>();
+            _usuarioRepository = new UsuarioRepository(_contexto, _logger);
         }
     }
 }

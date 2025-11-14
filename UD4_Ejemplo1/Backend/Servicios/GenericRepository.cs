@@ -146,14 +146,14 @@ namespace UD4_Ejemplo1.Backend.Servicios
         /// </summary>
         /// <param name="entity">Entidad a añadir.</param>
         /// <param name="cancellationToken">Token de cancelación.</param>
-        public async Task AddAsync(T entity, CancellationToken cancellationToken = default)
+        public async Task AddAsync(T entity)
         {
             if (entity == null) throw new ArgumentNullException(nameof(entity));
 
             try
             {
-                await _dbSet.AddAsync(entity, cancellationToken).ConfigureAwait(false);
-                await _context.SaveChangesAsync(cancellationToken).ConfigureAwait(false);
+                await _dbSet.AddAsync(entity).ConfigureAwait(false);
+                await _context.SaveChangesAsync().ConfigureAwait(false);
                 _logger.LogInformation("Entidad de tipo {EntityType} añadida correctamente.", typeof(T).FullName);
             }
             catch (Exception ex)
