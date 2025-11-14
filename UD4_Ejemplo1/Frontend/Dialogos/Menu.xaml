@@ -54,7 +54,7 @@
             </MenuItem>
 
             <MenuItem Header="Articulos">
-                <MenuItem Header="Articulo Nuevo" ToolTip="Añadir un nuevo artículo">
+                <MenuItem Header="Articulo Nuevo"  ToolTip="Añadir un nuevo artículo" Click="fbtnAddArticulo_Click">
                     <MenuItem.Icon>
                         <Image Source="/IconosTema3/icon_down.png"/>
                     </MenuItem.Icon>
@@ -73,17 +73,17 @@
                 <MenuItem Header="Modelo Articulo Nuevo" ToolTip="Añadir un nuevo modelo de artículo"
                           Click="fbtnAddModelo_Click">
                     <MenuItem.Icon>
-                        <Image Source="/IconosTema3/icon_down.png"/>
+                        <Image Source="/Resources/Iconos/user.png"/>
                     </MenuItem.Icon>
                 </MenuItem>
                 <MenuItem Header="Modelo Articulo Editar" ToolTip="Editar un modelo de artículo">
                     <MenuItem.Icon>
-                        <Image Source="/IconosTema3/icon_down.png"/>
+                        <Image Source="/Resources/Iconos/user.png"/>
                     </MenuItem.Icon>
                 </MenuItem>
                 <MenuItem Header="Lista Modelo Articulo" ToolTip="Ver lista de modelos de artículos">
                     <MenuItem.Icon>
-                        <Image Source="/IconosTema3/icon_down.png"/>
+                        <Image Source="/Resources/Iconos/user.png"/>
                     </MenuItem.Icon>
                 </MenuItem>
             </MenuItem>
@@ -102,44 +102,44 @@
                     </MenuItem>
                     <MenuItem Header="Lista" ToolTip="Ver lista de usuarios">
                         <MenuItem.Icon>
-                            <Image Source="/IconosTema3/addinventario.png" />
+                            <Image Source="/Resources/Iconos/user.png" />
                         </MenuItem.Icon>
                     </MenuItem>
                 </MenuItem>
                 <MenuItem Header="Contraseñas" ToolTip="Cambiar contraseñas de usuarios">
                     <MenuItem.Icon>
-                        <Image Source="/IconosTema3/addinventario.png" />
+                        <Image Source="/Resources/Iconos/user.png" />
                     </MenuItem.Icon>
                 </MenuItem>
                 <MenuItem Header="Mantenimiento" ToolTip="Opciones de mantenimiento">
                     <MenuItem.Icon>
-                        <Image Source="/IconosTema3/addinventario.png" />
+                        <Image Source="/Resources/Iconos/user.png" />
                     </MenuItem.Icon>
                     <MenuItem Header="Eliminar Articulo" ToolTip="Eliminar un artículo">
                         <MenuItem.Icon>
-                            <Image Source="/IconosTema3/addarticulo.png"/>
+                            <Image Source="/Resources/Iconos/user.png"/>
                         </MenuItem.Icon>
                     </MenuItem>
                     <MenuItem Header="Eliminar Modelo Articulo" ToolTip="Eliminar un modelo de artículo">
                         <MenuItem.Icon>
-                            <Image Source="/IconosTema3/addarticulo.png"/>
+                            <Image Source="/Resources/Iconos/user.png"/>
                         </MenuItem.Icon>
                     </MenuItem>
                     <MenuItem Header="Eliminar Usuario" ToolTip="Eliminar un usuario">
                         <MenuItem.Icon>
-                            <Image Source="/IconosTema3/addarticulo.png"/>
+                            <Image Source="/Resources/Iconos/user.png"/>
                         </MenuItem.Icon>
                     </MenuItem>
                 </MenuItem>
                 <Separator/>
                 <MenuItem Header="Stock" ToolTip="Gestionar stock de artículos">
                     <MenuItem.Icon>
-                        <Image Source="/IconosTema3/addarticulomvvm.png" />
+                        <Image Source="/Resources/Iconos/user.png" />
                     </MenuItem.Icon>
                 </MenuItem>
                 <MenuItem Header="Listado Usuarios" ToolTip="Ver listado de usuarios">
                     <MenuItem.Icon>
-                        <Image Source="/IconosTema3/addarticulomvvm.png" />
+                        <Image Source="/Resources/Iconos/user.png" />
                     </MenuItem.Icon>
                 </MenuItem>
             </MenuItem>
@@ -147,17 +147,17 @@
             <MenuItem Header="Inventario">
                 <MenuItem Header="Listado de espacios" ToolTip="Ver espacios de inventario">
                     <MenuItem.Icon>
-                        <Image Source="/IconosTema3/addarticulomvvm.png" />
+                        <Image Source="/Resources/Iconos/user.png" />
                     </MenuItem.Icon>
                 </MenuItem>
                 <MenuItem Header="Chequear Inventario" ToolTip="Revisar inventario actual">
                     <MenuItem.Icon>
-                        <Image Source="/IconosTema3/addarticulomvvm.png" />
+                        <Image Source="/Resources/Iconos/user.png" />
                     </MenuItem.Icon>
                 </MenuItem>
                 <MenuItem Header="Inventario Nuevo" ToolTip="Añadir nuevo inventario">
                     <MenuItem.Icon>
-                        <Image Source="/IconosTema3/addarticulomvvm.png" />
+                        <Image Source="/Resources/Iconos/user.png" />
                     </MenuItem.Icon>
                 </MenuItem>
             </MenuItem>
@@ -165,12 +165,12 @@
             <MenuItem Header="Información">
                 <MenuItem Header="Informes" ToolTip="Generar informes">
                     <MenuItem.Icon>
-                        <Image Source="/IconosTema3/addarticulomvvm.png" />
+                        <Image Source="/Resources/Iconos/user.png" />
                     </MenuItem.Icon>
                 </MenuItem>
                 <MenuItem Header="Gráficos" ToolTip="Ver gráficos de información">
                     <MenuItem.Icon>
-                        <Image Source="/IconosTema3/addarticulomvvm.png" />
+                        <Image Source="/Resources/Iconos/user.png" />
                     </MenuItem.Icon>
                 </MenuItem>
             </MenuItem>

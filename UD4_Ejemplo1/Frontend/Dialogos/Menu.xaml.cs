@@ -38,6 +38,11 @@ namespace UD4_Ejemplo1.Frontend.Dialogos
             dialogoModelo.ShowDialog();
         }
 
+        private void fbtnAddArticulo_Click(object sender, RoutedEventArgs e)
+        {
+            DialogoArticulo dialogoArticulo = new DialogoArticulo();
+            dialogoArticulo.ShowDialog();
+        }
         private void buttonCerrarApp_Click(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();

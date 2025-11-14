@@ -132,7 +132,7 @@ namespace UD4_Ejemplo1.Frontend.ControlUsuario {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/UD4_Ejemplo1;V1.0.0.0;component/frontend/controlusuario/dialogomodelo.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/UD4_Ejemplo1;component/frontend/controlusuario/dialogomodelo.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Frontend\ControlUsuario\DialogoModelo.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

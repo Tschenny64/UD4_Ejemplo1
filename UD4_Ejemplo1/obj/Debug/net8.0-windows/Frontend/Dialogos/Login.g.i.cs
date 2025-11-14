@@ -100,7 +100,7 @@ namespace UD4_Ejemplo1.Frontend.Dialogos {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/UD4_Ejemplo1;V1.0.0.0;component/frontend/dialogos/login.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/UD4_Ejemplo1;component/frontend/dialogos/login.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Frontend\Dialogos\Login.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

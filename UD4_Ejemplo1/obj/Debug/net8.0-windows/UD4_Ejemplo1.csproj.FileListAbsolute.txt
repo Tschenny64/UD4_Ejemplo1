@@ -134,3 +134,5 @@ C:\Users\windows10\source\repos\UD4_Ejemplo1\UD4_Ejemplo1\bin\Debug\net8.0-windo
 C:\Users\windows10\source\repos\UD4_Ejemplo1\UD4_Ejemplo1\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Configuration.dll
 C:\Users\windows10\source\repos\UD4_Ejemplo1\UD4_Ejemplo1\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Console.dll
 C:\Users\windows10\source\repos\UD4_Ejemplo1\UD4_Ejemplo1\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\windows10\source\repos\UD4_Ejemplo1\UD4_Ejemplo1\obj\Debug\net8.0-windows\Frontend\ControlUsuario\DialogoArticulo.g.cs
+C:\Users\windows10\source\repos\UD4_Ejemplo1\UD4_Ejemplo1\obj\Debug\net8.0-windows\Frontend\ControlUsuario\DialogoArticulo.baml
