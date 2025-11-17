@@ -55,14 +55,16 @@
           x:Name="cmbUsuarioAlta" Width="200" Margin="5,15,0,15"
           DisplayMemberPath="Usuarioalta"/>
 
-        <ComboBox Grid.Row="4" Grid.Column="0"
+       <!--  <ComboBox Grid.Row="4" Grid.Column="0"
           mat:HintAssist.Hint="Usuario baja"
           x:Name="cmbUsuarioBaja" Width="200" Margin="5,15,0,15"
           DisplayMemberPath="Usuariobaja"/>
-
-        <DatePicker Grid.Row="4" Grid.Column="1"
+        -->
+        
+       <!-- <DatePicker Grid.Row="4" Grid.Column="1"
           mat:HintAssist.Hint="Fecha de baja"
           x:Name="dpFechaBaja" Width="200" Margin="5,15,0,15"/>
+        -->
 
         <ComboBox Grid.Row="5" Grid.Column="0"
           mat:HintAssist.Hint="Modelo"

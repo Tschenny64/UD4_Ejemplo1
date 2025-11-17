@@ -46,7 +46,7 @@ namespace UD4_Ejemplo1.Frontend.ControlUsuario
             List<Articulo> usuariosAlta = await _articuloRepository.GetAllAsync();
             cmbUsuarioAlta.ItemsSource = usuariosAlta;
             List<Articulo> usuariosBaja = await _articuloRepository.GetAllAsync();
-            cmbUsuarioBaja.ItemsSource = usuariosBaja;
+            // cmbUsuarioBaja.ItemsSource = usuariosBaja; 
             List<Articulo> espacios = await _articuloRepository.GetAllAsync();
             cmbEspacio.ItemsSource = espacios;
             List<Articulo> departamentos = await _articuloRepository.GetAllAsync();
@@ -95,7 +95,7 @@ namespace UD4_Ejemplo1.Frontend.ControlUsuario
                 Usuario usuarioSeleccionado = (Usuario)cmbUsuarioAlta.SelectedItem;
                 articulo.Usuarioalta = usuarioSeleccionado.Idusuario;
             }
-            if (cmbUsuarioBaja.SelectedItem != null)
+            /*if (cmbUsuarioBaja.SelectedItem != null)
             {
                 Usuario usuarioBajaSeleccionado = (Usuario)cmbUsuarioBaja.SelectedItem;
                 articulo.Usuariobaja = usuarioBajaSeleccionado.Idusuario;
@@ -103,7 +103,7 @@ namespace UD4_Ejemplo1.Frontend.ControlUsuario
             else
             {
                 articulo.Usuariobaja = null; // explicitamente null si no hay seleccion
-            }
+            } */
             if (cmbEspacio.SelectedItem != null)
             {
                 Espacio espacioSeleccionado = (Espacio)cmbEspacio.SelectedItem;
@@ -127,7 +127,7 @@ namespace UD4_Ejemplo1.Frontend.ControlUsuario
             {
                 articulo.Fechaalta = dpFechaAlta.SelectedDate.Value;
             }
-            if (dpFechaBaja.SelectedDate != null)
+           /* if (dpFechaBaja.SelectedDate != null)
             {
                 articulo.Fechabaja = dpFechaBaja.SelectedDate.Value;
             }
@@ -135,6 +135,7 @@ namespace UD4_Ejemplo1.Frontend.ControlUsuario
             {
                 articulo.Fechabaja = null; // explicitamente null si no hay seleccion
             }
+           */
         }
     }
 }

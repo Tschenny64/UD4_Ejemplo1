@@ -14,7 +14,7 @@
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Themes/Light.Blue.xaml" />
 
                 <!-- Material Design -->
-                <mat:BundledTheme BaseTheme="Light" PrimaryColor="Blue" SecondaryColor="Indigo" />
+                <mat:BundledTheme BaseTheme="Light" PrimaryColor="Green" SecondaryColor="Amber" />
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesign2.Defaults.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>

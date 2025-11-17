@@ -103,4 +103,11 @@ public partial class Usuario
     [ForeignKey("Tipo")]
     [InverseProperty("Usuarios")]
     public virtual Tipousuario TipoNavigation { get; set; } = null!;
+
+    override
+
+    public string ToString()
+    {
+        return Nombre + " " + Apellido1 + " " + Apellido2;
+    }
 }

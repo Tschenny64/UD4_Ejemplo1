@@ -73,7 +73,7 @@
             <TextBox x:Name="txtUsuario" Grid.Row="3" HorizontalAlignment="Center" Width="300" Margin="0,30,0,0"
    Style="{StaticResource MaterialDesignOutlinedTextBox}"
    materialDesign:TextFieldAssist.HasClearButton="True"
-   materialDesign:TextFieldAssist.TextFieldCornerRadius="25">
+   materialDesign:TextFieldAssist.TextFieldCornerRadius="25" TextChanged="txtUsuario_TextChanged">
                 <materialDesign:HintAssist.Hint>
                     <StackPanel Orientation="Horizontal" Margin="0 0 0 0">
                         <materialDesign:PackIcon Kind="Email"/>

@@ -72,6 +72,11 @@ namespace UD4_Ejemplo1.Frontend.Dialogos
             }).CreateLogger<GenericRepository<Usuario>>();
             _usuarioRepository = new UsuarioRepository(_contexto, _logger);
         }
+
+        private void txtUsuario_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
  

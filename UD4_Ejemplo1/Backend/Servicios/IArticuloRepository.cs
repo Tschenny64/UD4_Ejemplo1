@@ -9,5 +9,12 @@ namespace UD4_Ejemplo1.Backend.Servicios
 {
     public interface IArticuloRepository : IGenericRepository<Articulo>
     {
+
+      /*  Task<int> GetLastIdAsync();
+
+        Task<bool> IsNumserieUniqueAsync(string numserie);
+
+        IReadOnlyList<string> GetEstados()
+      */
     }
 }
