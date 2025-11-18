@@ -27,7 +27,13 @@ namespace UD4_Ejemplo1.Frontend.ControlUsuario
     {
         private DiinventarioexamenContext _contexto;
         private ILogger<GenericRepository<Articulo>> _logger;
-        private ArticuloRepository _articuloRepository;
+        private ArticuloRepository _articuloRepository; 
+        private UsuarioRepository _usuarioRepository;
+        private EspacioRepository _espacioRepository;
+        private DepartamentoRepository _departamentoRepository;
+        private ModeloArticuloRepository _modeloArticuloRepository;
+        private TipoArticuloRepository _tipoArticuloRepository;
+
         public DialogoArticulo()
         {
             InitializeComponent();
@@ -40,18 +46,40 @@ namespace UD4_Ejemplo1.Frontend.ControlUsuario
             {
                 builder.AddConsole();
             }).CreateLogger<GenericRepository<Articulo>>();
+
             _articuloRepository = new ArticuloRepository(_contexto, _logger);
-            List<Articulo> modelos = await _articuloRepository.GetAllAsync();
+
+            _modeloArticuloRepository = new ModeloArticuloRepository(_contexto, null);
+
+            _usuarioRepository = new UsuarioRepository(_contexto, null);
+
+            var loggerEspacio = LoggerFactory.Create(builder =>
+            {
+                builder.AddConsole();
+            }).CreateLogger<GenericRepository<Espacio>>();
+
+            _espacioRepository = new EspacioRepository(_contexto, loggerEspacio);
+
+            var loggerDepartamento = LoggerFactory.Create(builder =>
+            {
+                builder.AddConsole();
+            }).CreateLogger<GenericRepository<Departamento>>();
+
+            _departamentoRepository = new DepartamentoRepository(_contexto, loggerDepartamento);
+
+            _tipoArticuloRepository = new TipoArticuloRepository(_contexto, null);
+            
+            List<Modeloarticulo> modelos = await _modeloArticuloRepository.GetAllAsync();
             cmbModelo.ItemsSource = modelos;
-            List<Articulo> usuariosAlta = await _articuloRepository.GetAllAsync();
+            List<Usuario> usuariosAlta = await _usuarioRepository.GetAllAsync();
             cmbUsuarioAlta.ItemsSource = usuariosAlta;
             List<Articulo> usuariosBaja = await _articuloRepository.GetAllAsync();
             // cmbUsuarioBaja.ItemsSource = usuariosBaja; 
-            List<Articulo> espacios = await _articuloRepository.GetAllAsync();
+            List<Espacio> espacios = await _espacioRepository.GetAllAsync();
             cmbEspacio.ItemsSource = espacios;
-            List<Articulo> departamentos = await _articuloRepository.GetAllAsync();
+            List<Departamento> departamentos = await _departamentoRepository.GetAllAsync();
             cmbDepartamento.ItemsSource = departamentos;
-            List<Articulo> dentroDe = await _articuloRepository.GetAllAsync();
+            List<Tipoarticulo> dentroDe = await _tipoArticuloRepository.GetAllAsync();
             cmbDentroDe.ItemsSource = dentroDe;
         }
 
@@ -79,37 +107,27 @@ namespace UD4_Ejemplo1.Frontend.ControlUsuario
 
         private void RecogerDatos(Articulo articulo)
         {
-            // txtNumSerie y txtEstado recogen los datos del artículo
+
             articulo.Numserie = txtNumSerie.Text;
             articulo.Estado = txtEstado.Text;
+            articulo.Fechaalta = dpFechaAlta.SelectedDate.GetValueOrDefault(DateTime.Now);
 
-            // cmbModelo selecciona el modelo del artículo
-            if (cmbModelo.SelectedItem != null)
+            if (cmbModelo.SelectedItem is Modeloarticulo modeloarticulo)
             {
                 Modeloarticulo modeloSeleccionado = (Modeloarticulo)cmbModelo.SelectedItem;
                 articulo.Modelo = modeloSeleccionado.Idmodeloarticulo;
             }
-            // cmbUsuarioAlta selecciona el usuario que da de alta el artículo
             if (cmbUsuarioAlta.SelectedItem != null)
             {
                 Usuario usuarioSeleccionado = (Usuario)cmbUsuarioAlta.SelectedItem;
                 articulo.Usuarioalta = usuarioSeleccionado.Idusuario;
             }
-            /*if (cmbUsuarioBaja.SelectedItem != null)
-            {
-                Usuario usuarioBajaSeleccionado = (Usuario)cmbUsuarioBaja.SelectedItem;
-                articulo.Usuariobaja = usuarioBajaSeleccionado.Idusuario;
-            }
-            else
-            {
-                articulo.Usuariobaja = null; // explicitamente null si no hay seleccion
-            } */
-            if (cmbEspacio.SelectedItem != null)
+            if (cmbEspacio.SelectedItem is Espacio espacio)
             {
                 Espacio espacioSeleccionado = (Espacio)cmbEspacio.SelectedItem;
                 articulo.Espacio = espacioSeleccionado.Idespacio;
             }
-            if (cmbDepartamento.SelectedItem != null)
+            if (cmbDepartamento.SelectedItem is Departamento departamento)
             {
                 Departamento departamentoSeleccionado = (Departamento)cmbDepartamento.SelectedItem;
                 articulo.Departamento = departamentoSeleccionado.Iddepartamento;
@@ -119,23 +137,7 @@ namespace UD4_Ejemplo1.Frontend.ControlUsuario
                 Articulo dentroDeSeleccionado = (Articulo)cmbDentroDe.SelectedItem;
                 articulo.Dentrode = dentroDeSeleccionado.Idarticulo;
             }
-            else
-            {
-                articulo.Dentrode = null; // explicitamente null si no hay seleccion
-            }
-            if (dpFechaAlta.SelectedDate != null)
-            {
-                articulo.Fechaalta = dpFechaAlta.SelectedDate.Value;
-            }
-           /* if (dpFechaBaja.SelectedDate != null)
-            {
-                articulo.Fechabaja = dpFechaBaja.SelectedDate.Value;
-            }
-            else
-            {
-                articulo.Fechabaja = null; // explicitamente null si no hay seleccion
-            }
-           */
+            
         }
     }
 }

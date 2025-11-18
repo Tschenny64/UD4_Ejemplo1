@@ -1,50 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\windows10\\source\\repos\\UD4_Ejemplo1\\",
+  "WorkspaceRootPath": "C:\\Users\\IKERCATALA\\source\\repos\\UD4_Ejemplo1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|c:\\users\\windows10\\source\\repos\\ud4_ejemplo1\\ud4_ejemplo1\\frontend\\dialogos\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|solutionrelative:ud4_ejemplo1\\frontend\\dialogos\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|c:\\users\\windows10\\source\\repos\\ud4_ejemplo1\\ud4_ejemplo1\\frontend\\dialogos\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|solutionrelative:ud4_ejemplo1\\frontend\\dialogos\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|c:\\users\\windows10\\source\\repos\\ud4_ejemplo1\\ud4_ejemplo1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|solutionrelative:ud4_ejemplo1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|c:\\users\\windows10\\source\\repos\\ud4_ejemplo1\\ud4_ejemplo1\\backend\\servicios\\iarticulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|solutionrelative:ud4_ejemplo1\\backend\\servicios\\iarticulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|c:\\users\\windows10\\source\\repos\\ud4_ejemplo1\\ud4_ejemplo1\\backend\\servicios\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|solutionrelative:ud4_ejemplo1\\backend\\servicios\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|c:\\users\\windows10\\source\\repos\\ud4_ejemplo1\\ud4_ejemplo1\\backend\\servicios\\articulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|solutionrelative:ud4_ejemplo1\\backend\\servicios\\articulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|c:\\users\\windows10\\source\\repos\\ud4_ejemplo1\\ud4_ejemplo1\\frontend\\controlusuario\\dialogomodelo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|solutionrelative:ud4_ejemplo1\\frontend\\controlusuario\\dialogomodelo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|c:\\users\\windows10\\source\\repos\\ud4_ejemplo1\\ud4_ejemplo1\\frontend\\controlusuario\\dialogoarticulo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|c:\\users\\ikercatala\\source\\repos\\ud4_ejemplo1\\ud4_ejemplo1\\frontend\\controlusuario\\dialogoarticulo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|solutionrelative:ud4_ejemplo1\\frontend\\controlusuario\\dialogoarticulo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|c:\\users\\windows10\\source\\repos\\ud4_ejemplo1\\ud4_ejemplo1\\frontend\\controlusuario\\dialogomodelo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|solutionrelative:ud4_ejemplo1\\frontend\\controlusuario\\dialogomodelo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|c:\\users\\windows10\\source\\repos\\ud4_ejemplo1\\ud4_ejemplo1\\frontend\\controlusuario\\dialogoarticulo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|c:\\users\\ikercatala\\source\\repos\\ud4_ejemplo1\\ud4_ejemplo1\\frontend\\controlusuario\\dialogoarticulo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|solutionrelative:ud4_ejemplo1\\frontend\\controlusuario\\dialogoarticulo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|c:\\users\\windows10\\source\\repos\\ud4_ejemplo1\\ud4_ejemplo1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|solutionrelative:ud4_ejemplo1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|c:\\users\\ikercatala\\source\\repos\\ud4_ejemplo1\\ud4_ejemplo1\\backend\\servicios\\itipoarticulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|solutionrelative:ud4_ejemplo1\\backend\\servicios\\itipoarticulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|c:\\users\\ikercatala\\source\\repos\\ud4_ejemplo1\\ud4_ejemplo1\\backend\\servicios\\tipoarticulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|solutionrelative:ud4_ejemplo1\\backend\\servicios\\tipoarticulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,149 +26,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\windows10\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Frontend\\Dialogos\\Login.xaml.cs",
-              "RelativeDocumentMoniker": "UD4_Ejemplo1\\Frontend\\Dialogos\\Login.xaml.cs",
-              "ToolTip": "C:\\Users\\windows10\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Frontend\\Dialogos\\Login.xaml.cs",
-              "RelativeToolTip": "UD4_Ejemplo1\\Frontend\\Dialogos\\Login.xaml.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowE0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ITipoArticuloRepository.cs",
+              "DocumentMoniker": "C:\\Users\\IKERCATALA\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Backend\\Servicios\\ITipoArticuloRepository.cs",
+              "RelativeDocumentMoniker": "UD4_Ejemplo1\\Backend\\Servicios\\ITipoArticuloRepository.cs",
+              "ToolTip": "C:\\Users\\IKERCATALA\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Backend\\Servicios\\ITipoArticuloRepository.cs",
+              "RelativeToolTip": "UD4_Ejemplo1\\Backend\\Servicios\\ITipoArticuloRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T09:07:49.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.xaml",
-              "DocumentMoniker": "C:\\Users\\windows10\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Frontend\\Dialogos\\Login.xaml",
-              "RelativeDocumentMoniker": "UD4_Ejemplo1\\Frontend\\Dialogos\\Login.xaml",
-              "ToolTip": "C:\\Users\\windows10\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Frontend\\Dialogos\\Login.xaml",
-              "RelativeToolTip": "UD4_Ejemplo1\\Frontend\\Dialogos\\Login.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-17T09:07:44.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DialogoModelo.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\windows10\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Frontend\\ControlUsuario\\DialogoModelo.xaml.cs",
-              "RelativeDocumentMoniker": "UD4_Ejemplo1\\Frontend\\ControlUsuario\\DialogoModelo.xaml.cs",
-              "ToolTip": "C:\\Users\\windows10\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Frontend\\ControlUsuario\\DialogoModelo.xaml.cs",
-              "RelativeToolTip": "UD4_Ejemplo1\\Frontend\\ControlUsuario\\DialogoModelo.xaml.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAD4v00AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T08:33:35.743Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DialogoModelo.xaml",
-              "DocumentMoniker": "C:\\Users\\windows10\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Frontend\\ControlUsuario\\DialogoModelo.xaml",
-              "RelativeDocumentMoniker": "UD4_Ejemplo1\\Frontend\\ControlUsuario\\DialogoModelo.xaml",
-              "ToolTip": "C:\\Users\\windows10\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Frontend\\ControlUsuario\\DialogoModelo.xaml",
-              "RelativeToolTip": "UD4_Ejemplo1\\Frontend\\ControlUsuario\\DialogoModelo.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-17T08:31:44.226Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ArticuloRepository.cs",
-              "DocumentMoniker": "C:\\Users\\windows10\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Backend\\Servicios\\ArticuloRepository.cs",
-              "RelativeDocumentMoniker": "UD4_Ejemplo1\\Backend\\Servicios\\ArticuloRepository.cs",
-              "ToolTip": "C:\\Users\\windows10\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Backend\\Servicios\\ArticuloRepository.cs",
-              "RelativeToolTip": "UD4_Ejemplo1\\Backend\\Servicios\\ArticuloRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T08:22:03.211Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\windows10\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Backend\\Servicios\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "UD4_Ejemplo1\\Backend\\Servicios\\IGenericRepository.cs",
-              "ToolTip": "C:\\Users\\windows10\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Backend\\Servicios\\IGenericRepository.cs",
-              "RelativeToolTip": "UD4_Ejemplo1\\Backend\\Servicios\\IGenericRepository.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAcwA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T08:18:39.765Z",
+              "WhenOpened": "2025-11-18T20:37:09.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IArticuloRepository.cs",
-              "DocumentMoniker": "C:\\Users\\windows10\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Backend\\Servicios\\IArticuloRepository.cs",
-              "RelativeDocumentMoniker": "UD4_Ejemplo1\\Backend\\Servicios\\IArticuloRepository.cs",
-              "ToolTip": "C:\\Users\\windows10\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Backend\\Servicios\\IArticuloRepository.cs",
-              "RelativeToolTip": "UD4_Ejemplo1\\Backend\\Servicios\\IArticuloRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Title": "TipoArticuloRepository.cs",
+              "DocumentMoniker": "C:\\Users\\IKERCATALA\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Backend\\Servicios\\TipoArticuloRepository.cs",
+              "RelativeDocumentMoniker": "UD4_Ejemplo1\\Backend\\Servicios\\TipoArticuloRepository.cs",
+              "ToolTip": "C:\\Users\\IKERCATALA\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Backend\\Servicios\\TipoArticuloRepository.cs",
+              "RelativeToolTip": "UD4_Ejemplo1\\Backend\\Servicios\\TipoArticuloRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T08:11:53.539Z",
+              "WhenOpened": "2025-11-18T18:52:38.429Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\windows10\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\App.xaml",
-              "RelativeDocumentMoniker": "UD4_Ejemplo1\\App.xaml",
-              "ToolTip": "C:\\Users\\windows10\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\App.xaml",
-              "RelativeToolTip": "UD4_Ejemplo1\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-17T07:22:10.537Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DialogoArticulo.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\windows10\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Frontend\\ControlUsuario\\DialogoArticulo.xaml.cs",
-              "RelativeDocumentMoniker": "UD4_Ejemplo1\\Frontend\\ControlUsuario\\DialogoArticulo.xaml.cs",
-              "ToolTip": "C:\\Users\\windows10\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Frontend\\ControlUsuario\\DialogoArticulo.xaml.cs",
-              "RelativeToolTip": "UD4_Ejemplo1\\Frontend\\ControlUsuario\\DialogoArticulo.xaml.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAApwIkAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T11:05:10.351Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\windows10\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "UD4_Ejemplo1\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\windows10\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\MainWindow.xaml.cs",
-              "RelativeToolTip": "UD4_Ejemplo1\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T11:02:21.471Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "DialogoArticulo.xaml",
-              "DocumentMoniker": "C:\\Users\\windows10\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Frontend\\ControlUsuario\\DialogoArticulo.xaml",
+              "DocumentMoniker": "C:\\Users\\IKERCATALA\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Frontend\\ControlUsuario\\DialogoArticulo.xaml",
               "RelativeDocumentMoniker": "UD4_Ejemplo1\\Frontend\\ControlUsuario\\DialogoArticulo.xaml",
-              "ToolTip": "C:\\Users\\windows10\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Frontend\\ControlUsuario\\DialogoArticulo.xaml",
+              "ToolTip": "C:\\Users\\IKERCATALA\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Frontend\\ControlUsuario\\DialogoArticulo.xaml",
               "RelativeToolTip": "UD4_Ejemplo1\\Frontend\\ControlUsuario\\DialogoArticulo.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-14T09:04:11.229Z",
+              "WhenOpened": "2025-11-18T19:33:58.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DialogoArticulo.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\IKERCATALA\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Frontend\\ControlUsuario\\DialogoArticulo.xaml.cs",
+              "RelativeDocumentMoniker": "UD4_Ejemplo1\\Frontend\\ControlUsuario\\DialogoArticulo.xaml.cs",
+              "ToolTip": "C:\\Users\\IKERCATALA\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Frontend\\ControlUsuario\\DialogoArticulo.xaml.cs",
+              "RelativeToolTip": "UD4_Ejemplo1\\Frontend\\ControlUsuario\\DialogoArticulo.xaml.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAiwCIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T19:32:44.997Z",
               "EditorCaption": ""
             }
           ]

@@ -53,7 +53,7 @@
         <ComboBox Grid.Row="3" Grid.Column="1"
           mat:HintAssist.Hint="Usuario alta"
           x:Name="cmbUsuarioAlta" Width="200" Margin="5,15,0,15"
-          DisplayMemberPath="Usuarioalta"/>
+          DisplayMemberPath="Nombre"/>
 
        <!--  <ComboBox Grid.Row="4" Grid.Column="0"
           mat:HintAssist.Hint="Usuario baja"
@@ -69,22 +69,22 @@
         <ComboBox Grid.Row="5" Grid.Column="0"
           mat:HintAssist.Hint="Modelo"
           x:Name="cmbModelo" Width="200" Margin="5,15,0,15"
-          DisplayMemberPath="Modelo"/>
+          DisplayMemberPath="Nombre"/>
 
         <ComboBox Grid.Row="5" Grid.Column="1"
           mat:HintAssist.Hint="Departamento"
           x:Name="cmbDepartamento" Width="200" Margin="5,15,0,15"
-          DisplayMemberPath="Departamento"/>
+          DisplayMemberPath="Nombre"/>
 
         <ComboBox Grid.Row="6" Grid.Column="0"
           mat:HintAssist.Hint="Espacio"
           x:Name="cmbEspacio" Width="200" Margin="5,15,0,15"
-          DisplayMemberPath="Espacio"/>
+          DisplayMemberPath="Nombre" Cursor=""/>
 
         <ComboBox Grid.Row="6" Grid.Column="1"
           mat:HintAssist.Hint="Dentro de"
           x:Name="cmbDentroDe" Width="200" Margin="5,15,0,15"
-          DisplayMemberPath="Dentrode"/>
+          DisplayMemberPath="Nombre"/>
 
         <TextBox Grid.Row="7" Grid.ColumnSpan="1"
           mat:HintAssist.Hint="Observaciones"
