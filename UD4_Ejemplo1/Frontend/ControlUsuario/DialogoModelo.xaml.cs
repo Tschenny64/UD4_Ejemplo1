@@ -81,7 +81,6 @@ namespace UD4_Ejemplo1.Frontend.ControlUsuario
             {
                 modeloarticulo.TipoNavigation = (Tipoarticulo)cmbTipoArticulo.SelectedItem;
             }
-
         }
     }
 }

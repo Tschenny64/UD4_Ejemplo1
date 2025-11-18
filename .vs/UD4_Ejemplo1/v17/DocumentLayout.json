@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\IKERCATALA\\source\\repos\\UD4_Ejemplo1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|c:\\users\\ikercatala\\source\\repos\\ud4_ejemplo1\\ud4_ejemplo1\\frontend\\controlusuario\\dialogoarticulo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|solutionrelative:ud4_ejemplo1\\frontend\\controlusuario\\dialogoarticulo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|c:\\users\\ikercatala\\source\\repos\\ud4_ejemplo1\\ud4_ejemplo1\\frontend\\controlusuario\\dialogoarticulo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|solutionrelative:ud4_ejemplo1\\frontend\\controlusuario\\dialogoarticulo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|c:\\users\\ikercatala\\source\\repos\\ud4_ejemplo1\\ud4_ejemplo1\\backend\\servicios\\itipoarticulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|solutionrelative:ud4_ejemplo1\\backend\\servicios\\itipoarticulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|c:\\users\\ikercatala\\source\\repos\\ud4_ejemplo1\\ud4_ejemplo1\\frontend\\controlusuario\\dialogoarticulo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|solutionrelative:ud4_ejemplo1\\frontend\\controlusuario\\dialogoarticulo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|c:\\users\\ikercatala\\source\\repos\\ud4_ejemplo1\\ud4_ejemplo1\\backend\\servicios\\tipoarticulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|solutionrelative:ud4_ejemplo1\\backend\\servicios\\tipoarticulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|c:\\users\\ikercatala\\source\\repos\\ud4_ejemplo1\\ud4_ejemplo1\\frontend\\dialogos\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|solutionrelative:ud4_ejemplo1\\frontend\\dialogos\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|c:\\users\\ikercatala\\source\\repos\\ud4_ejemplo1\\ud4_ejemplo1\\backend\\servicios\\iespaciorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|solutionrelative:ud4_ejemplo1\\backend\\servicios\\iespaciorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|c:\\users\\ikercatala\\source\\repos\\ud4_ejemplo1\\ud4_ejemplo1\\backend\\servicios\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18454BA8-78F2-4037-A520-001216F658BD}|UD4_Ejemplo1\\UD4_Ejemplo1.csproj|solutionrelative:ud4_ejemplo1\\backend\\servicios\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,57 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ITipoArticuloRepository.cs",
-              "DocumentMoniker": "C:\\Users\\IKERCATALA\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Backend\\Servicios\\ITipoArticuloRepository.cs",
-              "RelativeDocumentMoniker": "UD4_Ejemplo1\\Backend\\Servicios\\ITipoArticuloRepository.cs",
-              "ToolTip": "C:\\Users\\IKERCATALA\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Backend\\Servicios\\ITipoArticuloRepository.cs",
-              "RelativeToolTip": "UD4_Ejemplo1\\Backend\\Servicios\\ITipoArticuloRepository.cs",
+              "DocumentIndex": 4,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\IKERCATALA\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Backend\\Servicios\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "UD4_Ejemplo1\\Backend\\Servicios\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\IKERCATALA\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Backend\\Servicios\\IGenericRepository.cs",
+              "RelativeToolTip": "UD4_Ejemplo1\\Backend\\Servicios\\IGenericRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T20:37:09.117Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TipoArticuloRepository.cs",
-              "DocumentMoniker": "C:\\Users\\IKERCATALA\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Backend\\Servicios\\TipoArticuloRepository.cs",
-              "RelativeDocumentMoniker": "UD4_Ejemplo1\\Backend\\Servicios\\TipoArticuloRepository.cs",
-              "ToolTip": "C:\\Users\\IKERCATALA\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Backend\\Servicios\\TipoArticuloRepository.cs",
-              "RelativeToolTip": "UD4_Ejemplo1\\Backend\\Servicios\\TipoArticuloRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T18:52:38.429Z",
+              "WhenOpened": "2025-11-18T22:25:38.637Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DialogoArticulo.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\IKERCATALA\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Frontend\\ControlUsuario\\DialogoArticulo.xaml.cs",
+              "RelativeDocumentMoniker": "UD4_Ejemplo1\\Frontend\\ControlUsuario\\DialogoArticulo.xaml.cs",
+              "ToolTip": "C:\\Users\\IKERCATALA\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Frontend\\ControlUsuario\\DialogoArticulo.xaml.cs",
+              "RelativeToolTip": "UD4_Ejemplo1\\Frontend\\ControlUsuario\\DialogoArticulo.xaml.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAlwHUAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T21:49:05.471Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "C:\\Users\\IKERCATALA\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Frontend\\Dialogos\\Login.xaml",
+              "RelativeDocumentMoniker": "UD4_Ejemplo1\\Frontend\\Dialogos\\Login.xaml",
+              "ToolTip": "C:\\Users\\IKERCATALA\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Frontend\\Dialogos\\Login.xaml",
+              "RelativeToolTip": "UD4_Ejemplo1\\Frontend\\Dialogos\\Login.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-18T22:26:23.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IEspacioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\IKERCATALA\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Backend\\Servicios\\IEspacioRepository.cs",
+              "RelativeDocumentMoniker": "UD4_Ejemplo1\\Backend\\Servicios\\IEspacioRepository.cs",
+              "ToolTip": "C:\\Users\\IKERCATALA\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Backend\\Servicios\\IEspacioRepository.cs",
+              "RelativeToolTip": "UD4_Ejemplo1\\Backend\\Servicios\\IEspacioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T22:25:40.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "DialogoArticulo.xaml",
               "DocumentMoniker": "C:\\Users\\IKERCATALA\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Frontend\\ControlUsuario\\DialogoArticulo.xaml",
               "RelativeDocumentMoniker": "UD4_Ejemplo1\\Frontend\\ControlUsuario\\DialogoArticulo.xaml",
               "ToolTip": "C:\\Users\\IKERCATALA\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Frontend\\ControlUsuario\\DialogoArticulo.xaml",
               "RelativeToolTip": "UD4_Ejemplo1\\Frontend\\ControlUsuario\\DialogoArticulo.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-18T19:33:58.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DialogoArticulo.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\IKERCATALA\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Frontend\\ControlUsuario\\DialogoArticulo.xaml.cs",
-              "RelativeDocumentMoniker": "UD4_Ejemplo1\\Frontend\\ControlUsuario\\DialogoArticulo.xaml.cs",
-              "ToolTip": "C:\\Users\\IKERCATALA\\source\\repos\\UD4_Ejemplo1\\UD4_Ejemplo1\\Frontend\\ControlUsuario\\DialogoArticulo.xaml.cs",
-              "RelativeToolTip": "UD4_Ejemplo1\\Frontend\\ControlUsuario\\DialogoArticulo.xaml.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAiwCIAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T19:32:44.997Z",
+              "WhenOpened": "2025-11-18T21:42:50.572Z",
               "EditorCaption": ""
             }
           ]

@@ -41,10 +41,10 @@
           Foreground="White" Margin="5,15,0,15"
           x:Name="txtNumSerie" Width="200"/>
 
-        <TextBox Grid.Row="2" Grid.Column="1"
+        <ComboBox Grid.Row="2" Grid.Column="1"
           mat:HintAssist.Hint="Estado"
           Foreground="White" Margin="5,15,0,15"
-          x:Name="txtEstado" Width="200"/>
+          x:Name="cmbEstado" Width="200"/>
 
         <DatePicker Grid.Row="3" Grid.Column="0"
           mat:HintAssist.Hint="Fecha de alta"
@@ -81,10 +81,10 @@
           x:Name="cmbEspacio" Width="200" Margin="5,15,0,15"
           DisplayMemberPath="Nombre" Cursor=""/>
 
-        <ComboBox Grid.Row="6" Grid.Column="1"
+        <!-- <ComboBox Grid.Row="6" Grid.Column="1"
           mat:HintAssist.Hint="Dentro de"
           x:Name="cmbDentroDe" Width="200" Margin="5,15,0,15"
-          DisplayMemberPath="Nombre"/>
+          DisplayMemberPath="Nombre"/> -->
 
         <TextBox Grid.Row="7" Grid.ColumnSpan="1"
           mat:HintAssist.Hint="Observaciones"

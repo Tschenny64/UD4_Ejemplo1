@@ -79,8 +79,9 @@ namespace UD4_Ejemplo1.Frontend.ControlUsuario
             cmbEspacio.ItemsSource = espacios;
             List<Departamento> departamentos = await _departamentoRepository.GetAllAsync();
             cmbDepartamento.ItemsSource = departamentos;
-            List<Tipoarticulo> dentroDe = await _tipoArticuloRepository.GetAllAsync();
-            cmbDentroDe.ItemsSource = dentroDe;
+            /*List<Tipoarticulo> dentroDe = await _tipoArticuloRepository.GetAllAsync();
+           cmbDentroDe.ItemsSource = dentroDe; */
+            cmbEstado.ItemsSource = new List<string> { "Nuevo", "Usado", "Dañado" };
         }
 
         private async void btnCancelarArticulo_Click(object sender, RoutedEventArgs e)
@@ -91,17 +92,20 @@ namespace UD4_Ejemplo1.Frontend.ControlUsuario
         private async void btnGuardarArticulo_Click(object sender, RoutedEventArgs e)
         {
             Articulo articulo = new Articulo();
+            articulo.Idarticulo = ObtenerSiguienteId();
             RecogerDatos(articulo);
             try
             {
                 await _articuloRepository.AddAsync(articulo);
-                _contexto.SaveChanges();
+                await _contexto.SaveChangesAsync();
                 DialogResult = true;
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error al guardar el artículo: " + ex.Message);
+                MessageBox.Show("Error al guardar el artículo: " + ex.Message +
+                    (ex.InnerException != null ? "\nDetalles: " + ex.InnerException.Message : ""));
             }
+
 
         }
 
@@ -109,7 +113,10 @@ namespace UD4_Ejemplo1.Frontend.ControlUsuario
         {
 
             articulo.Numserie = txtNumSerie.Text;
-            articulo.Estado = txtEstado.Text;
+            if (cmbEstado.SelectedItem != null)
+            {
+                articulo.Estado = cmbEstado.SelectedItem.ToString();
+            }
             articulo.Fechaalta = dpFechaAlta.SelectedDate.GetValueOrDefault(DateTime.Now);
 
             if (cmbModelo.SelectedItem is Modeloarticulo modeloarticulo)
@@ -117,7 +124,7 @@ namespace UD4_Ejemplo1.Frontend.ControlUsuario
                 Modeloarticulo modeloSeleccionado = (Modeloarticulo)cmbModelo.SelectedItem;
                 articulo.Modelo = modeloSeleccionado.Idmodeloarticulo;
             }
-            if (cmbUsuarioAlta.SelectedItem != null)
+            if (cmbUsuarioAlta.SelectedItem is Usuario usuario)
             {
                 Usuario usuarioSeleccionado = (Usuario)cmbUsuarioAlta.SelectedItem;
                 articulo.Usuarioalta = usuarioSeleccionado.Idusuario;
@@ -132,12 +139,18 @@ namespace UD4_Ejemplo1.Frontend.ControlUsuario
                 Departamento departamentoSeleccionado = (Departamento)cmbDepartamento.SelectedItem;
                 articulo.Departamento = departamentoSeleccionado.Iddepartamento;
             }
-            if (cmbDentroDe.SelectedItem != null)
+            /*if (cmbDentroDe.SelectedItem is Tipoarticulo nombre)
             {
-                Articulo dentroDeSeleccionado = (Articulo)cmbDentroDe.SelectedItem;
-                articulo.Dentrode = dentroDeSeleccionado.Idarticulo;
-            }
+                Tipoarticulo dentroDeSeleccionado = (Tipoarticulo)cmbDentroDe.SelectedItem;
+                articulo.Dentrode = dentroDeSeleccionado.Idtipoarticulo;
+            } */
             
+        }
+
+        private int ObtenerSiguienteId()
+        {
+            var maxId = _contexto.Articulos.Max(a => (int?)a.Idarticulo) ?? 0;
+            return maxId +1;
         }
     }
 }
